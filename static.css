@@ -1,0 +1,119 @@
+.left {
+  position: absolute;
+  width: 60%;
+  height: 100%;
+}
+
+body {
+  display: inline-block;
+  margin: 0;
+  font-family: 'Rasa', serif;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column-reverse;
+}
+
+.big {
+  background-color: #F8F9FB;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 250px;
+  font-family: 'Cutive', serif;
+  font-size: 40px;
+}
+
+div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 250px;
+  height: 250px;
+  background-color: black;
+  color: white;
+}
+
+div:hover{
+  margin-top: 10px;
+}
+
+.grey {
+  display: flex;
+  flex-wrap: wrap;
+  width: 250px;
+  height: 250px;
+  background-color: #CECECE;
+}
+
+.xoxo {
+  display: flex;
+  width: 250px;
+  height: 250px;
+  background-color: #EEEFF6;
+}
+
+.right {
+  margin-left: 10.4em;
+  margin-right: -27px;
+  margin-bottom: -5px;
+  position: relative;
+  display: flex;
+  width: 46%;
+  height: 47em;
+  float: right;
+}
+
+.diff {
+  background-color: #eeeeee;
+}
+
+.gray {
+  background-color: #9e9e9e;
+}
+
+@media only screen and (max-width: 1200px) {
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.big {
+  width: 100%;
+  height: 42.6%;
+}
+
+.right {
+  position: absolute;
+  height: 130.2%;
+  margin-top: 0;
+  float: right;
+  margin-left: 54%;
+}
+
+div {
+  height: 35%;
+  width: 30%;
+}
+
+.grey {
+  height: 35%;
+  width: 30%;
+}
+
+.white {
+  height: 17.6%;
+  width: 90%;
+}
+
+}
+

@@ -88,7 +88,7 @@ body {
 }
 
 .big {
-  width: 100%;
+  width: 90%;
   height: 42.6%;
 }
 
@@ -113,6 +113,10 @@ div {
 .white {
   height: 17.6%;
   width: 90%;
+}
+
+.box {
+  align-items: center;
 }
 
 }
